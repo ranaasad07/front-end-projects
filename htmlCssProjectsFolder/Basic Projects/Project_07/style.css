@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.backgroundimg{
+    background-image: url("new.png");
+    height: 30vh; 
+    align-items: center;
+    display: flex;
+    color: white;
+    background-repeat: no-repeat;
+    background-position:cover ; 
+    background-size: cover;
+
+}
+.logo {
+   
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+
+
+.navbar{
+    background-color: #a43703;
+ 
+    justify-content: space-evenly;
+    display: flex;
+    padding: 15px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+  
+    
+}
+.navbar a span{
+    color: black;
+    justify-content: space-between;
+
+}
+.mainbody{
+    display: flex;
+
+}
+.leftbody{
+    width: none;
+}
+.head{
+    background-color: #fef4e9;
+    padding: 20px;
+}
+.catagaries{
+    width: 30vw;
+}
+
+.catagaries_para{
+    background-color: #fdead5;
+    padding: 20px;
+    line-height:25px;
+}
+
+.catagaries_para p a{
+    color: black;
+}
+
+
+.news{
+    background-color: #8d2f03;
+    color: white;
+    margin-top: 10px;
+}
+
+.classhead{
+    padding: 20px;
+}
+.border{
+    height: 2px;
+    background: linear-gradient( to right, orange,transparent);
+    margin-top: 10px;
+}
+.news_content{
+    padding: 10px;
+}
+.news_content p {
+    padding: 10px;
+}
+.news_content p a{
+    padding-left: 250px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.list{
+    display: flex;
+}
+
+.aboutsection{
+    display: flex;
+
+}
+
+/* right body style start here */
+
+.rightbody{
+    margin-left: 20px;
+}
+.welcome_content{
+    padding: 10px;
+}
+.welcome_content h1 span{
+    color: #258eb8;
+}
+.welcome_content p{
+    padding: 10px;
+}
+
+.leftlist , .rightlist{
+    text-decoration: underline ;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 15px;
+
+}
+.list li::marker {
+    color: #258eb8;
+    
+}
+
+.about div h1{
+    padding: 10px;
+}
+.about{
+    margin: 10px;
+}
+.colorheading{
+    color:#258eb8;
+}
+.rightborder{
+    border-right: 1px solid black;
+    margin: 10px;
+}
+.rightborder p {
+    padding: 10px;
+    width: 320px;
+}
+.recentarticles {
+ margin: 10px;
+}
+.recentarticles h1 {
+    padding: 10px;
+}
+.recentarticles div p {
+    padding: 10px;
+}
+
+
+
+/* footer style  start from here  */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer div ul li{
+    display: inline;
+}
+.footer div ul li a {
+    padding: 10px;
+    color: #b0b3b7;
+    text-decoration: none;
+}
+.footer div p a {
+    padding: 10px;
+    text-decoration: none;
+    color: #b0b3b7;
+}
+.footer div p {
+ color: #b0b3b7;
+}
