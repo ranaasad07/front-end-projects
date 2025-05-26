@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submain {
+    padding: 0px 10%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header p {
+    padding-top: 15px;
+
+}
+
+.header p a {
+    text-decoration-color: red;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 70px;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tableheader {
+    background-color: rgb(41, 175, 102);
+}
+
+.tableheader th {
+    padding: 20px;
+    color: white;
+}
+
+
+table td button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 10px;
+
+
+}
+
+table tr td:nth-child(2) {
+
+    color: blue;
+
+}
+
+table tr td {
+    border-spacing: 25px;
+}
+
+
+.butt {
+
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.butt button {
+    background-color: rgb(41, 175, 102);
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+.footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
