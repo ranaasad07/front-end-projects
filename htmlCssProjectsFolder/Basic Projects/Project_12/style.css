@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*  social links style  */
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a4c639;
+}
+
+.social-first {
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.date,
+.phone {
+    border-left: 1px solid #b4d060;
+    padding: 10px;
+    border-right: 1px solid #b4d060;
+}
+
+
+.social-second {
+    display: flex;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* front page style  */
+
+.main-front-page {
+    background-image: url(images/img_1.jpg);
+    height: 90vh;
+}
+
+.front-page-header {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.header-navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 10px;
+    font-size: small;
+}
+
+li:hover,
+.act {
+    color: #a4c639;
+    border-bottom: 1px solid #a4c639;
+}
+
+.col {
+    color: #a4c639;
+    padding: 10px 0px;
+}
+
+.para {
+    margin: 25px 0px;
+    font-size: smaller;
+}
+
+.para a {
+    text-decoration: none;
+}
+
+.main-front-detail {
+    max-width: 25vw;
+    color: white;
+    margin-left: 15vw;
+    margin-top: 13vh;
+}
+
+.main-front-detail button {
+    padding: 10px;
+    background-color: #a4c639;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* request section   */
+
+.request-call {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a4c639;
+    color: white;
+    padding: 35px;
+}
+
+.request-call button {
+    padding: 10px;
+    background-color: #a4c639;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+}
+
+.request-call p {
+    margin-top: 5px;
+    font-size: small;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* finiancial service  */
+
+
+.financial-header {
+    text-align: center;
+    margin-top: 35px;
+    padding: 30px;
+    line-height: 40px;
+
+}
+
+
+.fin-img {
+    background-color: #f7f7f7;
+    max-width: 250px;
+    margin: 10px;
+
+}
+
+.fin-img img {
+    max-width: 250px;
+}
+
+.flex-section-img {
+    display: flex;
+    margin: 0px 20vw;
+    margin-bottom: 15vh;
+}
+
+.img-text {
+    padding: 20px;
+
+}
+
+.img-text p {
+    margin: 10px 0px;
+    font-size: smaller;
+    line-height: 20px;
+    color: #888889;
+}
+
+.img-text button {
+    padding: 10px;
+    background-color: #a4c639;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* solution start  */
+.solution-section {
+
+    background-image: url(images/img_5.jpg);
+    height: 70vh;
+
+}
+
+.solution-div {
+    display: flex;
+    color: white;
+    margin: 0 20vw;
+    align-items: center;
+    padding: 0;
+
+}
+
+
+.solution-right {
+    align-items: center;
+    margin-right: 70px;
+}
+
+.solution-right p {
+    margin: 10px 0;
+    line-height: 25px;
+    font-size: smaller;
+    font-size: 12px;
+}
+
+.solution-right button {
+    background-color: #a4c639;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 20px 0px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.solution-right h6 {
+    margin: 80px 0 10px 0;
+}
+
+.colre {
+    color: #a4c639;
+    margin-bottom: 35px;
+}
+
+.solution-left {
+    display: flex;
+    align-items: center;
+}
+
+.brd div {
+    background-color: #3a3a38;
+    padding: 30px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.brd div h3 {
+    color: #a4c639;
+}
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+/* about section  */
+
+.about-div {
+    display: flex;
+    margin: 100px 20vw;
+}
+
+.about-left img {
+    width: 400px;
+}
+
+.about-right {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+.about-right p {
+    margin: 18px 0px;
+    line-height: 25px;
+    font-size: small;
+    color: #9c969d;
+}
+
+.about-right h5 {
+    margin: 10px 0px;
+}
+
+.about-right button {
+    background-color: #a4c639;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------- */
+/* reviews heree */
+.review-section {
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+}
+
+.review-header {
+    text-align: center;
+    margin: 40px;
+}
+
+.review-header h1 {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.review-header p {
+    font-size: small;
+}
+
+.review-flex p {
+    line-height: 25px;
+}
+
+.pcol {
+    color: #78797b;
+}
+
+.colr {
+    color: #a4c639;
+    padding: 10px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.review-flex {
+    display: flex;
+    margin: 50px 20vw;
+}
+
+.review-flex div {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------------- */
+/* callback sectioj  */
+
+.callback-section {
+    background-color: #ffffff;
+}
+
+.callback-header {
+    text-align: center;
+    margin: 50px;
+
+    p {
+        font-size: smaller;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+}
+
+.colr {
+    color: #a4c639;
+}
+
+.call-form {
+    border-radius: 5px;
+    margin: 70px 20vw;
+    background-color: #a4c639;
+    height: 350px;
+}
+
+.form-input {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.form-input input {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+textarea {
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.butt {
+    text-align: center;
+    margin: 30px;
+}
+
+.call-form button {
+    background-color: inherit;
+    color: #f6f9ed;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* --------------------------------------------- */
+
+.footer-starter {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #aaaaaa;
+}
+
+.logo-section {
+    display: flex;
+    color: #aaaaaa;
+    padding: 35px;
+    font-size: small;
+}
+
+.logo-section div p {
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
+.logo-section div h3 {
+    margin: 5px 5px;
+}
+
+.footer {
+    background-color: #343434;
+    color: #d8e4d9;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+}
