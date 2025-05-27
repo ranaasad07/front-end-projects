@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(201, 216, 151);
+    color: #565750;
+    padding: 10px;
+}
+
+.mainflex {
+    display: flex;
+    color: #565656;
+}
+
+.first {
+    width: 45vw;
+    margin: 10px;
+    margin-left: 3vw;
+}
+
+.second {
+    margin: 10px;
+    margin-left: 3vw;
+}
+
+.heading {
+    border-bottom: 1px solid #565656;
+    ;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+input {
+    margin: 3px;
+}
+
+label {
+    width: 25vw;
+}
+
+input,
+label {
+    display: inline-block;
+    padding: 5px;
+}
+
+select {
+    padding: 6px;
+    padding-left: 8px;
+    margin-left: 3px;
+    border-radius: 5px;
+    background-color: #ededed;
+}
