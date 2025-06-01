@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+}
+
+nav h3 {
+    color: #bbbbbb;
+    font-size: 30px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+.activ {
+    color: #458ad4;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.links ul li a:hover {
+    color: #458ad4;
+}
+
+/* ------------------------- */
+main {
+
+    position: relative;
+    margin: 0px 20%;
+    min-height: 1200px;
+}
+
+.background-squre {
+    position: absolute;
+    top: 350px;
+    left: 280px;
+    background-color: #f1c50d;
+    width: 530px;
+    height: 320px;
+    z-index: 1;
+}
+
+.background-circle {
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border: 30px solid #f1c50d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+
+}
+
+
+.text-section {
+    border: 5px solid #f1c50d;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
+
+.text-section h3 {
+    margin: 20px 0px;
+    margin-top: 35px;
+    letter-spacing: 4px;
+}
+
+.text-section h1 {
+    margin: 10px 0px;
+}
+
+.text-section p {
+    line-height: 21px;
+    padding: 0px 20px;
+}
+
+.text-section button {
+    margin: 30px 0px 0 0;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+
+/* --------------- */
+.img1-section {
+    border: solid;
+    width: 220px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    border: 10px solid white;
+    z-index: 3;
+}
+
+.img1-section img {
+    width: 220px;
+}
+
+.img1-section h1 {
+    margin: 20px 0px;
+}
+
+/* -------- */
+.imge-section-2 {
+    width: 300px;
+    z-index: 4;
+    position: absolute;
+    top: 600px;
+    left: 80px;
+}
+
+.imge-section-2 div img {
+    width: 280px;
+    height: 220px;
+    border: 5px solid #f1c50d;
+}
+
+.imge-section-2 p {
+    margin: 10px 0px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+/* ------- */
+
+.yellow {
+    position: absolute;
+    top: 1050px;
+    left: 550px;
+
+}
+
+.yell {
+    background-color: #f1c50d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    text-align: center;
+}
+
+.footer p {
+    color: #f2ffde;
+    padding: 30px;
+}
+
+.footer a {
+    color: #adcde9;
+}
