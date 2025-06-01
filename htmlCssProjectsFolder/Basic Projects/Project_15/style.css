@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ---  */
+.first-section {
+    background-color: #eae9e4;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav h3 {
+    color: #5a2f27;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #eda911;
+}
+
+.nav div span {
+    color: #eda911;
+}
+
+.form-sec {
+    display: flex;
+    margin: 5vw 20vw 0;
+}
+
+.first-sec {
+    width: 30vw;
+    margin-bottom: 5vw;
+    color: #582e26;
+}
+
+.first-sec h1 {
+    font-size: 60px;
+    margin: 15px 0px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.first-sec p {
+    line-height: 1.4;
+    font-size: small;
+    padding-right: 30px;
+}
+
+.first-sec button {
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin: 30px 0px;
+}
+
+.second-sec {
+    width: 30vw;
+    background-color: #5a2f27;
+    border-top: 10px solid #eda911;
+    text-align: center;
+    margin-bottom: 5vw;
+    border-radius: 10px;
+}
+
+.second-sec input,
+textarea {
+    display: block;
+    background-color: #5a2f27;
+    border: none;
+    border-bottom: 1px solid white;
+    align-items: center;
+    margin: 30px 30px;
+    color: white;
+    width: 20vw;
+    padding: 10px;
+
+}
+
+input::placeholder {
+    color: white;
+}
+
+.second-sec button {
+    background-color: black;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    margin: 30px 0px;
+    border-radius: 30px;
+}
+
+
+/* ---  */
+.main-section {
+    margin: 0 20vw;
+}
+
+.div-center {
+    text-align: center;
+    padding: 50px 50px 0;
+}
+
+.div-center h1 {
+    color: #582e26;
+}
+
+.div-center h5 {
+    color: #b3b1a6;
+}
+
+.back-color {
+    background-color: #582e26;
+    margin: 5px;
+    color: white;
+    line-height: 1.5;
+    height: 330px;
+}
+
+.back-color h3 {
+    padding-top: 80px;
+}
+
+.back-color p {
+    padding: 10px;
+}
+
+.first-flex-3box {
+    display: flex;
+}
+
+.img-div-text {
+    text-align: center;
+}
+
+.img-div-text div img {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    bottom: -60px;
+}
+
+.last-flex-3box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.last-flex-3box div p {
+    margin: 0px;
+}
+
+.div-h2-position {
+    background-color: #eda911;
+    margin: 10px;
+    border-radius: 0px 40px;
+}
+
+.div-h2-position p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.div-h2-position h2 {
+    background-color: #5a2f27;
+    display: inline;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.head-section {
+    margin-bottom: 50px;
+}
+
+/* ---  */
+.last-se {
+    background-color: #5a2f27;
+}
+
+.first-s {
+    text-align: center;
+}
+
+.first-s h1 {
+    text-align: start;
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+    /* margin-bottom: 60px; */
+}
+
+.col {
+    color: #f6b219;
+}
+
+.first-s h2 {
+    color: #f6b219;
+    font-size: medium;
+    margin: 10px;
+}
+
+.inner-div p {
+    line-height: 1.5;
+    padding: 10px;
+    font-size: small;
+}
+
+.first-s img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -48px;
+}
+
+.second-last {
+    /* border: solid; */
+    display: flex;
+    margin: 0 0 0 20vw;
+    padding: 50px 0;
+}
+
+.inner-div {
+    background-color: white;
+    width: 30vw;
+    height: 170px;
+    padding: 10px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.second-s img {
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/* ---  */
+.last-section {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.last-section h1 {
+    margin: 8px;
+}
+
+.last-section p {
+    color: #eea911;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.last-section button {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin: 25px;
+}
+
+/* ---  */
+.footer {
+    background-color: #582e26;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+}
