@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top {
+    border: solid;
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+
+.div-center-cont {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-div {
+    max-width: 960px;
+    border: soid;
+    margin: auto;
+}
+
+.first-section {
+    background-color: skyblue;
+
+}
+
+.first-img {
+    width: 50%;
+}
+
+.first-img img {
+    width: 340px;
+    padding-left: 32px;
+    padding-top: 40px;
+    margin-bottom: -5px;
+}
+
+.first-content {
+    width: 48%;
+    color: #fff;
+
+    h1 {
+        font-size: 56px;
+    }
+
+    p {
+        padding: 20px 0;
+        max-width: 350px;
+        line-height: 1.4;
+        font-size: 18px;
+    }
+
+    button {
+        padding: 12px 24px;
+        background-color: #f1c50d;
+        font-weight: 600;
+        border: none;
+        font-size: 12px;
+        border-radius: 30px;
+        color: #fff;
+    }
+}
+
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+
+.second-section {
+    background-color: #2dba6a;
+}
+
+.second-sec-flex {
+    display: flex;
+}
+
+.center-div {
+    max-width: 960px;
+    margin: auto;
+
+}
+
+.second-heading-sec {
+    max-width: 50%;
+    color: #fff;
+    padding: 28px 0;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        padding-bottom: 16px;
+    }
+}
+
+.second-sec-flex {
+    display: flex;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.second-sub-1 {
+    width: 50%;
+
+    h3 {
+        padding: 20px 0;
+    }
+
+}
+
+.imag-sec2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.second-sub-2 {
+    width: 50%;
+    line-height: 2;
+    font-size: 20px;
+
+    ul {
+        padding: 32px 0;
+    }
+
+}
+
+.second-sub-2 ul li::marker {
+    color: #2196f3;
+    width: 12px;
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+/* <!-- --- --- --- --- --- --- ---  --> */
+.white-main-section {
+    background-color: #fff;
+}
+
+.white-sub-main {
+    margin: auto;
+    max-width: 960px;
+    margin: auto;
+
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+.main-departments {
+    padding: 24px 0;
+
+    h3 {
+        padding: 16px 0;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #2dba6a;
+    }
+
+    p {
+        padding: 16px 0;
+    }
+
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+.tick-flex-main {
+    display: flex;
+    gap: 10px;
+}
+
+.tick-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+
+    h3 {
+        padding: 10px 0 24px 0px;
+    }
+}
+
+.tik-yellow {
+
+    background-color: #f1c50d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    p {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 15px;
+    }
+
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+/* <!-- --- --- --- --- --- --- ---  --> */
+.faq-section-heading {
+    padding: 25px 0;
+
+    h3 {
+        padding: 20px 0;
+    }
+
+    h2 {
+        color: #2dba6a;
+        font-size: 40px;
+    }
+}
+
+.q1 {
+    padding: 20px;
+}
+
+.q1 h3 {
+    padding: 16px;
+}
+
+.ques {
+    margin-bottom: 40px;
+    color: #2dba6a;
+}
+
+.question-sec {
+    display: flex;
+}
+
+.img-q img {
+    width: 400px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+.last-white-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.flex-item-last {
+    width: 300px;
+}
+
+.img-flex-12 img {
+    width: 300px;
+    height: 200px;
+}
+
+.pad-2 {
+    padding: 30px;
+}
+
+.pad-2 p {
+    padding: 16px 0;
+}
+
+.pad-2 button {
+    padding: 12px 24px;
+    background-color: #f1c50d;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+.last-green-section {
+    background-color: #2dba6a;
+}
+
+.center-grn {
+    max-width: 960px;
+    margin: auto;
+
+
+}
+
+.last-grn-heading {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 20px;
+
+    h2 {
+        font-size: 36px;
+        padding: 12px;
+
+    }
+
+    p {
+        line-height: 1.3;
+    }
+}
+
+.last-grn-flex {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.last-grn-flex img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+
+.grn-flex-item {
+    text-align: center;
+    width: 250px;
+    padding: 16px;
+
+
+    p {
+        padding-top: 20px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        padding-top: 12px;
+    }
+
+}
+
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+
+.second-last-section {
+    background-color: gray;
+    width: 100%;
+    background-image: url(./images/image/img_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+
+}
+
+.sec-lst-sec {
+    background-color: #fff;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        color: #2dba6a;
+        font-size: 32px;
+        padding: 25px 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+
+}
+
+.lastpara {
+    padding-bottom: 25px;
+}
+
+
+
+/* <!-- --- --- --- --- --- --- ---  --> */
+
+.footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 40px 0 30px 0;
+    color: white;
+    line-height: 1.3;
+}
+
+.footer-links {
+    padding-top: 60px;
+}
+
+.footer-links a {
+    color: #8bb8de;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .first-content {
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            padding: 20px 0;
+            font-size: 24px;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 20px;
+        }
+    }
+
+    .responsive {
+        padding: 40px;
+    }
+
+    .tick-flex-main {
+        flex-wrap: wrap;
+    }
+
+    .tick-item {
+        width: 40%;
+    }
+    .question-sec{
+        display: block;
+    }
+    .img-q img{
+        margin-left: 40%;
+        padding-top: 1px; 
+    }
+    .img-flex-12 img{
+        width: 300px;
+    }
+    .last-grn-flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grn-flex-item{
+        width: 300px;
+    }
+    .last-grn-flex .img1234 img{
+        width: 230px;
+        height: 230px;
+    }
+
+}
