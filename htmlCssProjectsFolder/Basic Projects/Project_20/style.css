@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.custm-head-img {
+  background-image: url("images/pricing-bg.jpg");
+  background-position: fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.image-grid div {
+  gap: 0;
+  padding: 0 !important;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.custom-footer-list {
+  background: #44515b;
+  color: white;
+}
+.custom-footer {
+  background-color: #3a4753;
+  color: white;
+}
+.custm-foot {
+  flex-direction: row-reverse;
+}
+.custm-ff {
+  flex-direction: row-reverse;
+}
+.ime {
+  border-radius: 5px;
+}
+.marg {
+  margin-top: -22%;
+  background-color: rgba(252, 246, 246, 0.897);
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 992px) {
+  .custm-foot {
+    display: block !important;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .custm-fff,
+  .custm-ff,
+  .cusstom {
+    display: block !important;
+  }
+}
