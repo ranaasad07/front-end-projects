@@ -1,0 +1,135 @@
+.custom-main-footer {
+  background-color: #f1f1f1;
+}
+
+.custom-cus {
+  margin-inline: auto;
+}
+
+.custom-main-bg {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/navbar/bg-image.jpg);
+
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.custom-nav {
+  background-color: rgb(241, 241, 241, 0.8);
+  padding: 24px;
+}
+
+.custom-head {
+  align-content: end;
+}
+
+.custom-sale {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/sales/image.jpg);
+
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.custom-features {
+  background-color: #f1f1f1;
+}
+.custom-subscribe {
+  background-color: #f1f1f1;
+}
+.custom-latest-news {
+  background-color: #f1f1f1;
+}
+
+.b3 {
+  background-color: #f1f1f7;
+}
+
+.img-3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.cus-col-loc {
+  color: #2389eb;
+}
+.cus-col-blu {
+  color: #309ff1;
+}
+
+.custom-white {
+  color: white;
+}
+
+.top-center-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.custom-black-bg:hover .top-center-custom {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+
+.custom-p.custom-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-p.custom-icons span {
+  margin: 0 10px;
+}
+
+.custom-white {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.custom-white:hover {
+  color: #007bff;
+}
+
+.custom-box {
+  background-color: #fff;
+}
+
+.custom-box a {
+  text-decoration: none;
+}
+.custom-box a:hover {
+  font-weight: 700;
+}
+
+.custom-box:hover {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.199);
+}
+
+.custom-btn {
+  background-color: white;
+}
+.custom-links a {
+  text-decoration: none;
+}
+
+.custom-links a:hover {
+  font-weight: 700;
+}
