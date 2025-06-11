@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.custom-first-page {
+  background-image: url(images/app-1.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+.custom-box-1,
+.custom-light-blue,
+.custom-le {
+  background-color: #8f77f4;
+}
+
+.custom-box-2,
+.custom-orange,
+.custom-all-btn {
+  background-color: #f19a0d;
+  border: none;
+}
+
+.custom-box-3,
+.custom-purple {
+  background-color: #c043f0;
+}
+
+.custom-img-sec,
+.custom-bgc-help {
+  background-color: #f2f2f2;
+}
+
+.custom-img-sec img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.custom-col {
+  color: #c043f0;
+}
+
+.custom-colour {
+  color: #f09821;
+}
+
+.custom-footer {
+  background-color: #333333;
+}
