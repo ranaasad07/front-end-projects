@@ -35,9 +35,9 @@
 
 // console.log(square)
 // square(5)
-var num =10;
+var num = 10;
 
-function square(num){
+function square(num) {
     return num * num
 }
 
